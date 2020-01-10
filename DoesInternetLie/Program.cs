@@ -8,7 +8,7 @@ namespace DoesInternetLie
     {
         private static void CheckType(object a)
         {
-            WriteLine($"{a.GetType()}");
+            WriteLine($"{a.GetType()}");        //I wanted to check if string and System.String are the same
         }
 
         static void Main(string[] args)
